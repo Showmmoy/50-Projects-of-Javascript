@@ -3,11 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rotating Navigation</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/rotatingnavigation.css">
 </head>
 <body>
-    
+    <div class="container show-nav">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <h1>amazing article</h1>
+            <small>Florin Pop</small>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sapiente temporibus alias, explicabo iusto veniam reprehenderit officia harum officiis commodi nam dicta corporis cumque assumenda, tempora nobis! Nisi sapiente deserunt iusto totam rem itaque quod, similique quae illum, maiores quia aliquam et ab provident quas? Labore ipsam voluptas sint ipsa perspiciatis quia nihil, minus praesentium reprehenderit. Architecto, in recusandae magnam amet repudiandae aliquam similique dignissimos. Ut mollitia recusandae impedit ea optio quidem, dolores ab quod dignissimos excepturi reprehenderit deserunt? Quae dolor tenetur perspiciatis laborum animi iste, dolorum, maxime corporis, esse tempora quia veniam amet. Magnam velit quod a assumenda aliquam?</p>
+            <h3>My Dog</h3>
+            <img src="https://images.unsplash.com/photo-1561037404-61cd46aa615b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="a dog">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa fugit, omnis reiciendis cum cupiditate inventore sunt tempore aspernatur fuga, dolorem, aliquam autem in placeat ullam adipisci beatae tempora repellendus sed eveniet laborum obcaecati dolore. Cupiditate praesentium aliquid ducimus doloremque iusto nemo provident? Vero quidem quae, dolores veritatis nesciunt voluptatibus quibusdam fugit eligendi eaque laboriosam cum rem qui dignissimos doloribus a, beatae accusamus velit animi ipsum ut? Exercitationem illum illo amet quo fuga obcaecati modi voluptatem.</p>
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i>Home</li>
+            <li><i class="fas fa-user-alt"></i>About</li>
+            <li><i class="fas fa-envelope"></i>Contact</li>
+        </ul>
+    </nav>
+    <script src="js/rotatingnavigation.js"></script>
 </body>
 </html>
