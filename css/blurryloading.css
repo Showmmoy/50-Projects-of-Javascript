@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap');
+/* Blurry Loading CSS */
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ruda', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.bg {
+    background: url('../assets/img/blurryimage.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: -30;
+    left: -30;
+    width: calc(100vw + 60px);
+    height: calc(100vw + 60px);
+    z-index: -1;
+    filter: blur(0px);
+
+}
+.loading-text {
+    font-size: 50px;
+    color: #fff;
+}   
