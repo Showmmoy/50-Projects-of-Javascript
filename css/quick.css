@@ -257,3 +257,146 @@ a:hover, a:focus {
     animation: fadeInUp 0.8s ease-out;
 }
 
+/* ===========================
+   BASIC RESPONSIVE FIXES
+=========================== */
+
+/* Container */
+@media (max-width: 1200px) {
+    .container {
+        width: 95%;
+    }
+}
+
+/* Columns full width on smaller screens */
+@media (max-width: 992px) {
+    .col-3, .col-4, .col-6, .col-12 {
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+    }
+
+    /* Banner text and image */
+    .banner h1 {
+        font-size: 36px;
+    }
+
+    .banner p {
+        margin: 15px 20px;
+        font-size: 15px;
+    }
+
+    .banner img {
+        width: 80%;
+        margin: 20px auto;
+        display: block;
+    }
+
+    /* Success section */
+    .success .success-left,
+    .success .success-right {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .success .success-left h2,
+    .success .success-right h2 {
+        font-size: 36px;
+    }
+
+    .success .success-left p {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+
+    /* Feature boxes */
+    .feature .col-4 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .feature-box {
+        width: 90%;
+        margin: 0 auto 20px auto;
+        padding: 30px 15px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    /* Header logo center + menu below */
+    .header .col-6:first-child {
+        text-align: center;
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+    }
+
+    .header .col-6:last-child {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .header .menu li {
+        display: inline-block;
+        margin: 5px 10px;
+    }
+
+    .banner h1 {
+        font-size: 28px;
+    }
+
+    .banner p {
+        font-size: 14px;
+    }
+
+    .banner img {
+        width: 90%;
+    }
+
+    .success .success-left h2,
+    .success .success-right h2 {
+        font-size: 28px;
+    }
+
+    .feature-box h4 {
+        font-size: 16px;
+    }
+
+    .feature-box p {
+        font-size: 13px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .banner h1 {
+        font-size: 24px;
+    }
+
+    .banner p {
+        font-size: 13px;
+        margin: 10px 15px;
+    }
+
+    .feature-box {
+        width: 95%;
+        padding: 20px 10px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+
+    /* Header menu stack nicely */
+    .header .menu li {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+}
+
+
+
